@@ -35,9 +35,9 @@ _Launch: October 3, 2019 at ETCSummit. [eth-classic/mordor#1](https://github.com
 - Agharta: `301_243`
 - Phoenix: `999_983`
 - Thanos: `2_520_000`
-- Magneto: `...`
-- Mystique: `....`
-- Spiral: `...`
+- Magneto: `3_985_893`
+- Mystique: `5_520_000`
+- Spiral: `9_957_000`
 
 ### Genesis hash
 
