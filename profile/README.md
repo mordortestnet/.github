@@ -111,13 +111,13 @@ You can visit the Core-geth documentation for more installation options. I’m u
 
 If you just want to download and run `geth --mordor` or any of the other tools here, this is the quickest and simplest way.
 
-Binary archives are published at https://github.com/etclabscore/core-geth/releases. Find the latest one for your OS, download it, (check the SHA sum), unarchive it, and run! As of the time this is being written, v1.12.17 is the most recent release that includes the next network upgrade: Spiral.
+Binary archives are published at https://github.com/etclabscore/core-geth/releases. Find the latest one for your OS, download it, (check the SHA sum), unarchive it, and run! As of the time this is being written, v1.12.18 is the most recent release that includes the next network upgrade: Spiral.
 
 When running Core-geth use `--mordor` flag for Ethereum Classic's Mordor Testnet.
 
 ```shell
-$ wget https://github.com/etclabscore/core-geth/releases/download/v1.12.17/core-geth-linux-v1.12.17.zip # Update to the most current release version
-$ sudo unzip core-geth-linux-v1.12.17.zip -d /bin/ # Update to the most current release version
+$ wget https://github.com/etclabscore/core-geth/releases/download/v1.12.18/core-geth-linux-v1.12.18.zip # Update to the most current release version
+$ sudo unzip core-geth-linux-v1.12.18.zip -d /bin/ # Update to the most current release version
 $ geth --help # Lists available options
 $ geth --mordor # Runs Ethereum Classic's testnet Mordor
 ```
