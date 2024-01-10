@@ -137,7 +137,7 @@ You’ll notice listing the account will print the keystore file location.For ex
 ### Run Mordor with Mining Enable
 
 ```shell
-$ geth --mordor --mine --minerthreads 1 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087
+$ geth --mordor --mine --minerthreads 1 --miner.gaslimit 8000000 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087
 ```
 
 ### Check your Mordor Testnet Balance
@@ -157,13 +157,13 @@ You can use your keystore file to import your wallet into a wallet application s
 One way to avoid typing or copy and pasting this same text block is creating a shell script file.
 
 ```shell
-$ geth --mordor --mine --minerthreads 1 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087
+$ geth --mordor --mine --minerthreads 1 --miner.gaslimit 8000000 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087
 ```
 
 Enter the following in a new terminal window (ctrl + alt + t):
 
 ```shell
-touch start-mordor.sh && echo "geth --mordor --mine --minerthreads 1 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087" >start-mordor.sh && chmod +x start-mordor.sh
+touch start-mordor.sh && echo "geth --mordor --mine --minerthreads 1 --miner.gaslimit 8000000 --miner.etherbase 0x_INSERT_YOUR_ADDRESS_HERE_3a087" >start-mordor.sh && chmod +x start-mordor.sh
 ```
 
 touch start-mordor.sh to create the file && echo “the contents” into the shell script file && add chmod executable+x permissions to the file.
