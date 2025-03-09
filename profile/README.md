@@ -12,7 +12,7 @@
     ·
     <a href="#">Fork Mon</a>
     ·
-    <a href="https://faucet.mordortest.net">Faucet</a>
+    <a href="https://faucet.etcmc-monitor.org">Faucet</a>
     ·
     <a href="https://github.com/mordortestnet/contribute/issues/new">Create an Issue</a>
   </p>
@@ -63,8 +63,7 @@ Block Explorer:
 - https://explorer-expedition.etc-network.info/?network=Ethereum+Classic+at+etc-network.info+GETH+Mordor
 
 Faucet:
-- https://faucet.mordortest.net
-- https://easy.hebeswap.com/#/faucet
+- https://faucet.etcmc-monitor.org
 
 Public End Points:
 - https://chainlist.org/chain/63
@@ -107,17 +106,17 @@ https://etclabscore.github.io/core-geth/getting-started/installation/
 
 ### Mordor Testnet Mining Guide
 
-You can visit the Core-geth documentation for more installation options. I’m using Ubuntu 22.04 LTS.
+You can visit the Core-geth documentation for more installation options. I’m using Ubuntu 24.04 LTS.
 
 If you just want to download and run `geth --mordor` or any of the other tools here, this is the quickest and simplest way.
 
-Binary archives are published at https://github.com/etclabscore/core-geth/releases. Find the latest one for your OS, download it, (check the SHA sum), unarchive it, and run! As of the time this is being written, v1.12.19 is the most recent release that includes the next network upgrade: Spiral.
+Binary archives are published at https://github.com/etclabscore/core-geth/releases. Find the latest one for your OS, download it, (check the SHA sum), unarchive it, and run! As of the time this is being written, v1.12.20 is the most recent release that includes the next network upgrade: Spiral.
 
 When running Core-geth use `--mordor` flag for Ethereum Classic's Mordor Testnet.
 
 ```shell
-$ wget https://github.com/etclabscore/core-geth/releases/download/v1.12.19/core-geth-linux-v1.12.19.zip # Update to the most current release version
-$ sudo unzip core-geth-linux-v1.12.19.zip -d /bin/ # Update to the most current release version
+$ wget https://github.com/etclabscore/core-geth/releases/download/v1.12.20/core-geth-linux-v1.12.20.zip # Update to the most current release version
+$ sudo unzip core-geth-linux-v1.12.20.zip -d /bin/ # Update to the most current release version
 $ geth --help # Lists available options
 $ geth --mordor # Runs Ethereum Classic's testnet Mordor
 ```
@@ -180,7 +179,7 @@ Great job! You are mining on Ethereum Classic's testnet.
 
 https://faucet.mordortest.net
 
-A faucet is a developer tool that gives users testnet tokens to use when testing smart contracts or interacting with DApps on test networks. https://faucet.mordortest.net gives Mordor testnet ETC to test smart contracts before pushing them to production on the Ethereum Classic mainnet. Faucets like this allow network users and developers to interact with the Mordor network without the prerequisite of mining METC via a client node. To donate METC to this public faucet, please send your METC to address `0x51Cb0EA27f03e56d84E9EB1879F131393a6769bA`.
+A faucet is a developer tool that gives users testnet tokens to use when testing smart contracts or interacting with DApps on test networks. https://faucet.etcmc-monitor.org gives Mordor testnet ETC to test smart contracts before pushing them to production on the Ethereum Classic mainnet. Faucets like this allow network users and developers to interact with the Mordor network without the prerequisite of mining METC via a client node. To donate METC to this public faucet, please send your METC to address `0x51738162ED5E9f1251de429dfeb70D5e9f67aE95`.
 
 ### Video Mordor Testnet Guide
 
