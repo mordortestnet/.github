@@ -177,7 +177,7 @@ Great job! You are mining on Ethereum Classic's testnet.
 
 ### Donate Mined METC to a Community Faucet for Pubic Use
 
-https://faucet.mordortest.net
+https://faucet.etcmc-monitor.org
 
 A faucet is a developer tool that gives users testnet tokens to use when testing smart contracts or interacting with DApps on test networks. https://faucet.etcmc-monitor.org gives Mordor testnet ETC to test smart contracts before pushing them to production on the Ethereum Classic mainnet. Faucets like this allow network users and developers to interact with the Mordor network without the prerequisite of mining METC via a client node. To donate METC to this public faucet, please send your METC to address `0x51738162ED5E9f1251de429dfeb70D5e9f67aE95`.
 
